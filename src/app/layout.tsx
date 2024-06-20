@@ -8,8 +8,8 @@ const fontSans = FontSans({
   variable: "--font-sans",
 })
 export const metadata: Metadata = {
-  title: "RecoverPal",
-  description: "Instant Recovery And Jumpstart Everywhere In The UK",
+  title: "24/7 Vehicle Recovery and Car Breakdown Services UK –  Recoverpal",
+  description: "Recoverpal offers fast, effective & reliable vehicle recovery, Jumpstart, and car breakdown recovery services in Watford, Borehamwood & surrounding areas.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <head>
-         
+         <link rel="canonical" href="https://recoverpal.uk/">
           <script
             src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBtRLTK2xMQWQovc-RUWO0t7Ntl5S9glxk&libraries=places`}
             async
